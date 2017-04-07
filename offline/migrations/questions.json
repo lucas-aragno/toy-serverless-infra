@@ -1,0 +1,29 @@
+{
+    "Table": {
+        "TableName": "serveless-test-api",
+        "KeySchema": [
+            {
+                "AttributeName": "id",
+                "KeyType": "HASH"
+            }
+        ],
+        "AttributeDefinitions": [
+            {
+                "AttributeName": "id",
+                "AttributeType": "S"
+            },
+            {
+              "AttributeName": "text",
+              "AttributeType": "S"
+            },
+            {
+              "AttributeName": "type",
+              "AttributeType": "S"
+            }
+        ],
+        "ProvisionedThroughput": {
+            "ReadCapacityUnits": 1,
+            "WriteCapacityUnits": 1
+        }
+    }
+}

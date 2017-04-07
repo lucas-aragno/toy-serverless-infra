@@ -1,0 +1,22 @@
+{
+  "name": "serverless",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "db:start": "sls dynamodb start --migrate",
+    "start": "sls offline"
+  },
+  "author": "lucas.aragno157@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.39.0",
+    "serverless-dynamodb-local": "^0.2.21",
+    "serverless-offline": "^3.13.2",
+    "uuid": "^3.0.1"
+  },
+  "devDependencies": {
+    "babel-preset-latest": "^6.24.1",
+    "serverless-babel-plugin": "^0.1.3"
+  }
+}
