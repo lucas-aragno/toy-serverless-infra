@@ -6,4 +6,4 @@
 - open another terminal go to the project and run `npm run start` that will boot the serverless stuff on [localhost:3000](localhost:3000)
 
 
-## You might need AWS credentials set on `~/.aws/credentials`
+#### You might need AWS credentials set on `~/.aws/credentials`
